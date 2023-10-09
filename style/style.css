@@ -28,10 +28,10 @@ main > section {
   border: 3px black dashed;
 }
 
-.flex {
+/* .flex {
   display: flex;
   justify-content: center;
-}
+} */
 
 .blue {
   background-color: #00008b;
@@ -45,6 +45,8 @@ main > section {
   height: 400px;
 }
 
-.boxes-wrapper {
-  margin: auto;
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
