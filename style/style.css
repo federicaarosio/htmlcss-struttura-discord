@@ -19,14 +19,14 @@ header > section {
   margin: auto;
 }
 
-main > section,
-footer > section {
-  min-height: 500px;
-}
-
 footer {
   background-color: #23272a;
 }
+
+footer > section > div.light-aqua {
+  height: 100px;
+}
+
 .main-width {
   width: 80%;
 }
@@ -51,6 +51,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 30px 0;
 }
 
 /* Contenitore box azzurro chiaro e rosa chiaro */
@@ -58,6 +59,12 @@ footer {
   display: flex;
   justify-content: center;
   height: 450px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .light-blue {
@@ -73,7 +80,6 @@ footer {
 .green {
   background-color: #228b22;
   height: 600px;
-  margin: 50px 0; /*rivedere*/
 }
 
 .coral-pink {
@@ -84,6 +90,10 @@ footer {
 .aqua {
   background-color: #20b2aa;
   width: 75%;
+}
+
+.light-aqua {
+  background-color: #7fffd4;
 }
 
 /* Sistemare le altezze delle sezioni! */
@@ -99,4 +109,11 @@ footer {
 .quarters-columns {
   width: 25%;
   border: 2px white dashed;
+}
+
+.logo-bottone {
+  background-color: #ffb6c1;
+  height: 50px;
+  /* vertical-align: middle;
+  display: inline; */
 }
