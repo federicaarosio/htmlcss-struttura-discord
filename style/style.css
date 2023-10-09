@@ -19,6 +19,14 @@ body {
   padding: 30px 0;
 }
 
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* --- */
+
 header {
   height: 100px;
   background-color: #add8e6;
@@ -27,12 +35,6 @@ header {
 header > section {
   height: 50px;
   background-color: #daa520;
-}
-
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 ul.nav {
@@ -60,60 +62,11 @@ footer > section > div.light-aqua {
   border: 3px black dashed;
 }
 
-.blue {
-  background-color: #00008b;
-  border-bottom: 3px solid #acd7e6;
-}
-
-.pink {
-  background-color: #ee82ee;
-  margin: auto;
-  width: 60%;
-  height: 400px;
-}
-
-
-
 /* Contenitore box azzurro chiaro e rosa chiaro */
 .flex-wrapper {
   display: flex;
   justify-content: center;
   height: 450px;
-}
-
-.footer-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.light-blue {
-  background-color: #1e90ff;
-  width: 70%;
-}
-
-.light-pink {
-  background-color: #ffc0cb;
-  width: 30%;
-}
-
-.green {
-  background-color: #228b22;
-  height: 600px;
-}
-
-.coral-pink {
-  background-color: #f08080;
-  width: 25%;
-}
-
-.aqua {
-  background-color: #20b2aa;
-  width: 75%;
-}
-
-.light-aqua {
-  background-color: #7fffd4;
 }
 
 /* Sistemare le altezze delle sezioni! */
@@ -143,4 +96,47 @@ footer > section > div.light-aqua {
 .logo-bottone {
   background-color: #ffb6c1;
   padding: 10px;
+}
+
+
+/* Colori */
+.blue {
+  background-color: #00008b;
+  border-bottom: 3px solid #acd7e6;
+}
+
+.pink {
+  background-color: #ee82ee;
+  margin: auto;
+  width: 60%;
+  height: 400px;
+}
+
+.light-blue {
+  background-color: #1e90ff;
+  width: 70%;
+}
+
+.light-pink {
+  background-color: #ffc0cb;
+  width: 30%;
+}
+
+.green {
+  background-color: #228b22;
+  height: 600px;
+}
+
+.coral-pink {
+  background-color: #f08080;
+  width: 25%;
+}
+
+.aqua {
+  background-color: #20b2aa;
+  width: 75%;
+}
+
+.light-aqua {
+  background-color: #7fffd4;
 }
