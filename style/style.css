@@ -32,6 +32,7 @@ main > section {
   display: flex;
   justify-content: center;
   background-color: #00008b;
+  border-bottom: 3px solid #acd7e6;
 }
 
 .pink {
