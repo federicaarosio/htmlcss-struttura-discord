@@ -25,7 +25,21 @@ body {
   align-items: center;
 }
 
-/* --- */
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 450px;
+}
+
+/* ------ */
+
+.main-width {
+  width: 80%;
+}
+
+.border-dashed {
+  border: 3px black dashed;
+}
 
 header {
   height: 100px;
@@ -54,22 +68,14 @@ footer > section > div.light-aqua {
   height: 100px;
 }
 
-.main-width {
-  width: 80%;
+.logo-login {
+  width: 20%;
+  padding: 10px;
 }
 
-.border-dashed {
-  border: 3px black dashed;
+.ta-right {
+  text-align: right;
 }
-
-/* Contenitore box azzurro chiaro e rosa chiaro */
-.flex-wrapper {
-  display: flex;
-  justify-content: center;
-  height: 450px;
-}
-
-/* Sistemare le altezze delle sezioni! */
 
 .gray-background {
   background-color: #d3d3d3;
@@ -82,15 +88,6 @@ footer > section > div.light-aqua {
 .quarters-columns {
   width: 25%;
   border: 2px white dashed;
-}
-
-.logo-login {
-  width: 20%;
-  padding: 10px;
-}
-
-.ta-right {
-  text-align: right;
 }
 
 .logo-bottone {
