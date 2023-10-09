@@ -25,13 +25,11 @@ main > section {
 
 .main-width {
   width: 80%;
-  border: 3px black dashed;
 }
 
-/* .flex {
-  display: flex;
-  justify-content: center;
-} */
+.border-dashed {
+  border: 3px black dashed;
+}
 
 .blue {
   background-color: #00008b;
@@ -49,4 +47,25 @@ main > section {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Contenitore box azzurro chiaro e rosa chiaro */
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 450px;
+}
+
+section > div.flex-wrapper > div {
+  border: 3px black dashed;
+}
+
+.light-blue {
+  background-color: #1e90ff;
+  width: 70%;
+}
+
+.light-pink {
+  background-color: #ffc0cb;
+  width: 30%;
 }
