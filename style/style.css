@@ -19,10 +19,14 @@ header > section {
   margin: auto;
 }
 
-main > section {
+main > section,
+footer > section {
   min-height: 500px;
 }
 
+footer {
+  background-color: #23272a;
+}
 .main-width {
   width: 80%;
 }
@@ -72,8 +76,27 @@ main > section {
   margin: 50px 0; /*rivedere*/
 }
 
+.coral-pink {
+  background-color: #f08080;
+  width: 25%;
+}
+
+.aqua {
+  background-color: #20b2aa;
+  width: 75%;
+}
+
 /* Sistemare le altezze delle sezioni! */
 
 .gray-background {
   background-color: #d3d3d3;
+}
+
+.gray-border {
+  border-bottom: 3px solid #c8c8c8;
+}
+
+.quarters-columns {
+  width: 25%;
+  border: 2px white dashed;
 }
