@@ -56,10 +56,6 @@ main > section {
   height: 450px;
 }
 
-section > div.flex-wrapper > div {
-  border: 3px black dashed;
-}
-
 .light-blue {
   background-color: #1e90ff;
   width: 70%;
@@ -68,4 +64,8 @@ section > div.flex-wrapper > div {
 .light-pink {
   background-color: #ffc0cb;
   width: 30%;
+}
+
+.gray-background {
+  background-color: #d3d3d3;
 }
