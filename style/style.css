@@ -32,9 +32,14 @@ header > section {
 
 ul.nav-flex-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   list-style: none;
+  padding: 10px;
+}
+
+li {
+  padding: 0 20px;
 }
 
 footer {
@@ -127,6 +132,15 @@ footer > section > div.light-aqua {
 .quarters-columns {
   width: 25%;
   border: 2px white dashed;
+}
+
+.logo-login {
+  width: 20%;
+  padding: 10px;
+}
+
+.ta-right {
+  text-align: right;
 }
 
 .logo-bottone {
