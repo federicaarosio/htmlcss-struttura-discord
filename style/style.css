@@ -20,7 +20,7 @@ header > section {
 }
 
 main > section {
-  height: 500px;
+  min-height: 500px;
 }
 
 .main-width {
@@ -65,6 +65,14 @@ main > section {
   background-color: #ffc0cb;
   width: 30%;
 }
+
+.green {
+  background-color: #228b22;
+  height: 600px;
+  margin: 50px 0; /*rivedere*/
+}
+
+/* Sistemare le altezze delle sezioni! */
 
 .gray-background {
   background-color: #d3d3d3;
