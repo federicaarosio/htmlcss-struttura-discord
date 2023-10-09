@@ -11,17 +11,22 @@ body {
   font-size: 1.5rem;
 }
 
+/* Flexbox */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
 header {
   height: 100px;
   background-color: #add8e6;
-  display: flex;
-  justify-content: center;
 }
 
 header > section {
   height: 50px;
   background-color: #daa520;
-  margin: auto;
 }
 
 .navigation {
@@ -70,12 +75,7 @@ footer > section > div.light-aqua {
   height: 400px;
 }
 
-.flex-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 0;
-}
+
 
 /* Contenitore box azzurro chiaro e rosa chiaro */
 .flex-wrapper {
