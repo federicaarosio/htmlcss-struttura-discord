@@ -19,7 +19,24 @@ header > section {
   margin: auto;
 }
 
+main > section {
+  height: 500px;
+}
+
 .main-width {
   width: 80%;
   border: 3px black dashed;
+}
+
+.blue {
+  display: flex;
+  justify-content: center;
+  background-color: #00008b;
+}
+
+.pink {
+  background-color: #ee82ee;
+  margin: auto;
+  width: 60%;
+  height: 400px;
 }
