@@ -24,6 +24,19 @@ header > section {
   margin: auto;
 }
 
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul.nav-flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
 footer {
   background-color: #23272a;
 }
